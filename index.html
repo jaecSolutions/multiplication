@@ -16,10 +16,11 @@
 		<form id="form">
 			<p id="score">score : 0</p>
 			<h1 id="question">X  of X?</h1>
-			<input type="number" id="inp" placeholder="Enter Your Answer"
+			<input type="number" pattern="\d*" id="inp" placeholder="Enter Your Answer"
 				autofocus autocomplete="off">
-
-            <input type='text' pattern='[0–9]*'/> 
+<!-- 
+                <input type="number" >
+                <input type='text' pattern='[0–9]*'/>  -->
 			<button id="btn" type="submit">Submit</button>
 		</form>
 	</div>
